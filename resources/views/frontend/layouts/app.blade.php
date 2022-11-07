@@ -23,6 +23,7 @@
     @stack('before-styles')
 
     <link rel="stylesheet" href="{{ mix('css/frontend.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
     @stack('after-styles')
 
@@ -31,7 +32,7 @@
 
 <body>
 
-    @include('frontend.includes.header')
+    @include('frontend.includes.navbar1')
 
 
     <main>

@@ -31,6 +31,31 @@ class FrontendController extends Controller
         return view('frontend.privacy', compact('body_class'));
     }
 
+    public function contact()
+    {
+        $body_class = '';
+        return view('frontend.contact', compact('body_class'));
+    }
+
+
+    public function aboutus()
+    {
+        $body_class = '';
+        return view('frontend.aboutus', compact('body_class'));
+    }
+
+    public function services()
+    {
+        $body_class = '';
+        return view('frontend.services', compact('body_class'));
+    }
+
+    public function portfolio()
+    {
+        $body_class = '';
+        return view('frontend.portfolio', compact('body_class'));
+    }
+
     /**
      * Terms & Conditions Page.
      *
